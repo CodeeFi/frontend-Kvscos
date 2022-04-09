@@ -1,0 +1,37 @@
+ .container{
+     width:100%;
+     height:80px;
+     background:red;
+     display:flex;
+     flex-flow: wrap;
+     
+ }.a{
+    font-size: 15px; float:left 
+ }
+ .b{display: inline-block;
+    font-size: 15px;margin-left: auto;
+ }
+ 
+ 
+ @media screen and (max-width:12px){
+    .a{
+        width:40%;
+
+    }
+}@media screen and (max-width:600px){
+    .a{
+        width:60%;
+        
+    }
+}
+@media screen and (max-width:1200px){
+   .b{
+       width:40%;
+
+   }
+}@media screen and (max-width:600px){
+   .b{
+       width:100%;
+       
+   }
+}

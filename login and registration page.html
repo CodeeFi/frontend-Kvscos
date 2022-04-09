@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Login And Registration Page
+        </title>
+        <LINK REL="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="hero">
+<div class="form-box">
+<div class="button-box"><div id="btn1"></div>
+    <button type="button" id="1" onclick="login()" class="toggle-btn">Log In</button>
+    <button type="button" id="2" onclick="register()" class="toggle-btn">Register</button>
+</div>    
+<form  id="login" class="input-group">
+       <input type="text" class="input-field" placeholder="Enter Enroll NO"required>
+    <input type="password" class="input-field" placeholder="Enter Password"required>
+<input type="checkbox"class="check-box"><span>remember password</span>     
+<button type="submit" class="submit-btn">Log In</button>
+</form> 
+
+<form    action="connection.php" method="POST" id="register" class="input-group1">
+    <input type="text" class="input-field1" placeholder="Enter Your Name" name="Name"required>
+    <input type="text" class="input-field2" placeholder="Enter Enroll NO" name="Enrollno"required>
+    <input type="email" class="input-field3" placeholder="Email Id" name="Email"required>
+    
+    <select class="input-field5" name="Session"> <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>Year
+ <input type="password" class="input-field6" placeholder="Enter Password" name="Password"required>
+ <input type="password" class="input-field7" placeholder=" Re-Enter Password" name="Repassword"required>
+    
+<button type="submit" class="submit-btn">Register</button>
+</form> 
+</div>
+     
+
+        </div>
+
+        <script type="text/javascript">
+        var x= document.getElementById("login");
+        var y= document.getElementById("register");
+        var z= document.getElementById("btn1");
+
+        function login(){
+    x.style.left="10px";
+    y.style.left="600px";
+    z.style.left="0";
+}
+function register(){
+    x.style.left="-344px";
+    y.style.left="20px";
+    z.style.left="70px";
+}
+
+        </script>
+        
+    </body>
+
+</html>

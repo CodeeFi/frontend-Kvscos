@@ -1,0 +1,31 @@
+*{text-decoration: none;
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}.sidebar{width:150px;
+    height:100%; 
+    background:#042331;
+    position: fixed;
+}.ab{background:#063146;
+font-size: 22px; color:aliceblue; 
+ text-align :center;line-height: 40PX;
+}  .ad{display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size:10px;
+    color:white;
+    padding-left:20px ;
+border-radius:40px ;
+border: 1px solid rgba(255,255,255,.1);
+
+}
+ul li:hover{transition: .9s;
+    padding-left:20px ;
+    
+}
+.w{
+    width:10px;
+    height:10px;
+    margin-right:6px;
+}
